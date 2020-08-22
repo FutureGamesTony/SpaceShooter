@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\BulletScript.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Tony.Rundstrom/Programming/SpaceShooter/SpaceShooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
