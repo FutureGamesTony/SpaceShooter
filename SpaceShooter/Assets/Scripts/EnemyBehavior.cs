@@ -39,7 +39,7 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float yMovement = Mathf.Sin(Mathf.Deg2Rad * 90 * Time.time * _sineFrequency) * _sineMagnitude * Time.deltaTime;
+        float yMovement = Mathf.Sin(Mathf.Deg2Rad * 90 * (Time.time + 0.5f) * _sineFrequency) * _sineMagnitude * Time.deltaTime;
         transform.position = new Vector2(transform.position.x + _horizontalSpeed * Time.deltaTime, transform.position.y + yMovement);
 
         if (transform.position.x < -20)
