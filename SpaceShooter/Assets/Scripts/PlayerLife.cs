@@ -20,14 +20,11 @@ public class PlayerLife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == _enemyTag)
-        {
-            currentHealth -= 1.0f;
-        }
 
         if (other.tag == _bulletTag)
         {
             currentHealth -= 1.0f;
+            Destroy(other.gameObject);
         }
 
         if (other.tag == _healthTag)
