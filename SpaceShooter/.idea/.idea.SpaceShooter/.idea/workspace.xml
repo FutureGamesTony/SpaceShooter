@@ -35,10 +35,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundScroll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UISlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLife.cs" />
       </list>
     </option>
   </component>
@@ -82,8 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1598109455058</updated>
       <workItem from="1598109465601" duration="6042000" />
-      <workItem from="1598192870220" duration="1480000" />
-      <workItem from="1598195307761" duration="4511000" />
     </task>
     <servers />
   </component>
@@ -102,7 +97,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -112,28 +106,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="243" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598109547026" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1598197645421">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598197645421" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs</url>
-          <line>34</line>
-          <properties documentPath="C:\Users\Tony.Rundstrom\Programming\SpaceShooter\SpaceShooter\Assets\Scripts\PlayerMovement.cs" initialLine="34">
-            <startOffsets>
-              <option value="1112" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1147" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
