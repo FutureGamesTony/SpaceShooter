@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bullet
+  - PlayerBullet
+  - HealthPack
   layers:
   - Default
   - TransparentFX
@@ -41,4 +43,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4021099623
+    locked: 0
+  - name: Bullets
+    uniqueID: 1858028651
+    locked: 0
+  - name: Enemies
+    uniqueID: 2948097481
+    locked: 0
+  - name: Player
+    uniqueID: 843060019
     locked: 0
