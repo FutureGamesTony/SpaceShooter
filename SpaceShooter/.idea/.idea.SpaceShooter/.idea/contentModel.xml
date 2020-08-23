@@ -9,7 +9,9 @@
         <e p="Scripts" t="Include">
           <e p="BackgroundScroll.cs" t="Include" />
           <e p="BulletScript.cs" t="Include" />
+          <e p="PlayerLife.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="UISlider.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

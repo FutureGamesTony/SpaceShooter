@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rb;
-    private string _horizontal = "Horizontal";
-    private string _vertical = "Vertical";
     private float _moveVertical;
     private float _moveHorizontal;
     //TODO: Change from magic values to data collected from scene and camera
@@ -30,7 +28,13 @@ public class PlayerMovement : MonoBehaviour
         OutOfBounds();
         if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Fire4"))
         {
+            
             Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, 1), Quaternion.identity);
+        }
+
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
     private void OutOfBounds()

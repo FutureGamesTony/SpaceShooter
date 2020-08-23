@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
-
+﻿using UnityEngine;
 public class BackgroundScroll : MonoBehaviour
 {
     public SpriteRenderer BG;
     public SpriteRenderer BGMirror;
-    private float _BGSpeed = .5f;
+    private float _BGSpeed = .25f;
     private Vector3 _BGPosition;
     
 
     private void Awake()
     {
-        _BGPosition = new Vector3(22.81f, -3.7594f, 1);
+        _BGPosition = new Vector3(22.80f, BG.transform.position.y, 1);
     }
 
     private void Update()
